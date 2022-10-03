@@ -2,6 +2,9 @@
 
 Admin and frontend page response checker
 
+- [branch 216 is the original v2.16.2 site](https://github.com/nickmoreton/wagtail-response-checker/tree/216)
+- [branch 300 is the site convered to v3.0.3](https://github.com/nickmoreton/wagtail-response-checker/tree/300) But a required change was missed
+
 ## `Live` testing senario
 
 Wagtail 3 has had some extensive changes over previous verions: [Documentation](https://docs.wagtail.org/en/stable/releases/3.0.html)
