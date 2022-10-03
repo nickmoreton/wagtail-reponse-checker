@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% load static wagtailcore_tags %}
+
+{% block body_class %}template-blogindexpage{% endblock %}
+
+{% block content %}
+
+<h1>{{ page.title }}</h1>
+
+{{ page.intro|richtext }}
+
+{% for post in page.get_children.all %}
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.date }}</p>
+    {{ post.intro|richtext }}
+{% endfor %}
+
+{% endblock content %}

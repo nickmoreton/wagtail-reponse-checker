@@ -7,6 +7,8 @@ Admin and frontend page response checker
 
 ## `Live` testing scenario
 
+*If you run check_responses command on this branch it will not show any errors*
+
 Wagtail 3 has had some extensive changes over previous verions: [Documentation](https://docs.wagtail.org/en/stable/releases/3.0.html)
 
 Mostly, if you miss renaming an import it can be seen quite quickly when running the site. But some other changes can be hard to spot. E.G.
