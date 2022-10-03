@@ -1,9 +1,9 @@
 from django.db import models
-from wagtail.admin.edit_handlers import (FieldPanel, RichTextFieldPanel,
+from wagtail.admin.panels import (FieldPanel, RichTextFieldPanel,
                                          StreamFieldPanel)
-from wagtail.core import blocks
-from wagtail.core.fields import RichTextField, StreamField
-from wagtail.core.models import Page
+from wagtail import blocks
+from wagtail.fields import RichTextField, StreamField
+from wagtail.models import Page
 from wagtail.images.blocks import ImageChooserBlock
 
 from home.edit_handlers import CustomHelpPanel
